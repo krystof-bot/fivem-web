@@ -48,3 +48,14 @@ header a {
   width: 100px;
   border-radius: 50%;
 }
+button.btn {
+  background-color: #7289da; /* Discord modrá */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button.btn:hover {
+  background-color: #5b6eae;
+}
