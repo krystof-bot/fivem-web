@@ -59,3 +59,13 @@ button.btn {
 button.btn:hover {
   background-color: #5b6eae;
 }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
