@@ -69,3 +69,15 @@ button.btn:hover {
   width: 100%;
   border-radius: 10px;
 }
+header {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.7);
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
