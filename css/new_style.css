@@ -114,3 +114,16 @@ body, html {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.6);
 }
+.btn {
+  background: linear-gradient(45deg, #7289da, #99aab5);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+.btn:hover {
+  background: linear-gradient(45deg, #99aab5, #7289da);
+  transform: scale(1.05);
+}
