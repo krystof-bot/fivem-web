@@ -127,3 +127,7 @@ body, html {
   background: linear-gradient(45deg, #99aab5, #7289da);
   transform: scale(1.05);
 }
+.hero {
+  background: url('../images/hero-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
